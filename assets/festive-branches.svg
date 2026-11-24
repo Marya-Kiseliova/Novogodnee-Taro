@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" fill="none">
+  <defs>
+    <linearGradient id="needle" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F5FAFF"/>
+      <stop offset=".42" stop-color="#B9C9DA"/>
+      <stop offset="1" stop-color="#70849C"/>
+    </linearGradient>
+    <linearGradient id="needle2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".55" stop-color="#D8E5F2"/>
+      <stop offset="1" stop-color="#899BB0"/>
+    </linearGradient>
+    <filter id="frost" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g stroke-linecap="round">
+    <path d="M-38 12C78 48 206 112 356 244" stroke="#65768C" stroke-width="13"/>
+    <path d="M-5 22C105 64 226 130 354 244" stroke="#EDF6FF" stroke-opacity=".72" stroke-width="3"/>
+    <g stroke="url(#needle)" stroke-width="11">
+      <path d="M22 30L16 155M48 42L74 176M76 55L50 203M105 71L143 218M132 88L103 239M161 106L205 253M190 127L164 272M220 149L265 289M250 175L232 310M282 202L321 321"/>
+    </g>
+    <g stroke="url(#needle2)" stroke-width="6">
+      <path d="M8 58L-30 124M27 73L2 145M57 78L118 123M69 103L134 153M91 129L51 188M116 139L177 183M136 164L92 226M163 180L221 220M187 205L143 254M214 222L273 257M239 250L204 292M270 270L326 298"/>
+    </g>
+
+    <path d="M1638 6C1515 50 1390 114 1246 246" stroke="#65768C" stroke-width="13"/>
+    <path d="M1605 20C1497 66 1375 132 1248 246" stroke="#EDF6FF" stroke-opacity=".72" stroke-width="3"/>
+    <g stroke="url(#needle)" stroke-width="11">
+      <path d="M1578 32L1585 157M1550 45L1526 180M1522 59L1549 207M1493 74L1457 221M1465 90L1496 242M1438 108L1394 256M1409 129L1435 275M1378 151L1334 292M1349 177L1368 313M1318 205L1279 324"/>
+    </g>
+    <g stroke="url(#needle2)" stroke-width="6">
+      <path d="M1592 60L1630 126M1573 75L1598 147M1543 80L1482 125M1531 105L1466 155M1509 131L1549 190M1484 141L1423 185M1464 166L1508 228M1437 182L1379 222M1413 207L1457 256M1386 224L1327 259M1361 252L1396 294M1330 272L1274 300"/>
+    </g>
+  </g>
+
+  <g fill="#FFFFFF" filter="url(#frost)">
+    <circle cx="55" cy="48" r="3"/><circle cx="132" cy="71" r="2"/>
+    <circle cx="228" cy="142" r="3"/><circle cx="314" cy="214" r="2"/>
+    <circle cx="1545" cy="51" r="3"/><circle cx="1471" cy="74" r="2"/>
+    <circle cx="1372" cy="145" r="3"/><circle cx="1288" cy="217" r="2"/>
+  </g>
+</svg>

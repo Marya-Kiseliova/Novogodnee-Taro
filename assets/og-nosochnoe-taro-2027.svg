@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09132f"/>
+      <stop offset="0.52" stop-color="#241348"/>
+      <stop offset="1" stop-color="#0b0d2d"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#b9cfff" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#b9cfff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5e327c"/>
+      <stop offset="1" stop-color="#11122e"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+    <filter id="shine" x="-200%" y="-200%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <pattern id="stars" width="96" height="86" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="16" r="1.1" fill="#fff7df" opacity=".65"/>
+      <circle cx="68" cy="54" r="1.5" fill="#c7d9ff" opacity=".75"/>
+      <circle cx="89" cy="8" r=".8" fill="#fff" opacity=".48"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#stars)" opacity=".72"/>
+  <circle cx="860" cy="300" r="360" fill="url(#glow)"/>
+
+  <g stroke-linecap="round" fill="none">
+    <path d="M0 10C115 45 211 92 324 180" stroke="#65768c" stroke-width="13"/>
+    <g stroke-width="10">
+      <path d="M35 24l14 91M62 33l76 62M91 50l4 107M122 61l87 74M156 78l8 111M193 99l84 80M230 122l13 105" stroke="#aebed0"/>
+      <path d="M49 32l-31 58M85 47l-25 78M129 65l-26 82M173 88l-22 85M217 113l-17 84" stroke="#edf5ff" stroke-width="5"/>
+    </g>
+    <path d="M1200 10C1085 45 989 92 876 180" stroke="#65768c" stroke-width="13"/>
+    <g stroke-width="10">
+      <path d="M1165 24l-14 91M1138 33l-76 62M1109 50l-4 107M1078 61l-87 74M1044 78l-8 111M1007 99l-84 80M970 122l-13 105" stroke="#aebed0"/>
+      <path d="M1151 32l31 58M1115 47l25 78M1071 65l26 82M1027 88l22 85M983 113l17 84" stroke="#edf5ff" stroke-width="5"/>
+    </g>
+  </g>
+
+  <g transform="translate(135 58)">
+    <path d="M0-38v51" stroke="#dce9f8" stroke-width="2"/>
+    <rect x="-15" y="10" width="30" height="11" rx="4" fill="#dce9f8"/>
+    <path d="M-26 20h52v69c18 3 34 10 44 22 8 11 3 25-9 31l-38 20c-25 13-50-3-49-31z" fill="#741737"/>
+    <circle cx="-8" cy="50" r="3" fill="#fff7df"/><circle cx="10" cy="67" r="2.5" fill="#fff7df"/>
+  </g>
+  <g transform="translate(1065 58)">
+    <path d="M0-38v51" stroke="#dce9f8" stroke-width="2"/>
+    <rect x="-15" y="10" width="30" height="11" rx="4" fill="#dce9f8"/>
+    <path d="M-26 20h52v69c18 3 34 10 44 22 8 11 3 25-9 31l-38 20c-25 13-50-3-49-31z" fill="#b8c8db"/>
+    <circle cx="-8" cy="50" r="3" fill="#fff7df"/><circle cx="10" cy="67" r="2.5" fill="#fff7df"/>
+  </g>
+
+  <g transform="translate(745 88) rotate(6 160 235)">
+    <rect x="0" y="0" width="320" height="470" rx="20" fill="url(#card)" stroke="#dce9f8" stroke-width="3"/>
+    <rect x="17" y="17" width="286" height="436" rx="12" fill="none" stroke="#dce9f8" stroke-opacity=".58"/>
+    <path d="M160 18v76" stroke="#dce9f8" stroke-opacity=".74"/>
+    <circle cx="160" cy="205" r="102" fill="#b9cfff" fill-opacity=".12" stroke="#dce9f8" stroke-width="2"/>
+    <circle cx="160" cy="205" r="84" fill="none" stroke="#dce9f8" stroke-opacity=".72"/>
+    <text x="160" y="225" text-anchor="middle" fill="#f5f8ff" font-family="Georgia,serif" font-size="76">✦</text>
+    <text x="160" y="348" text-anchor="middle" fill="#dce9f8" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3">ЗНАК 2027</text>
+    <text x="160" y="392" text-anchor="middle" fill="#fff8e9" font-family="Georgia,serif" font-size="28">Карта уже</text>
+    <text x="160" y="425" text-anchor="middle" fill="#fff8e9" font-family="Georgia,serif" font-size="28">выбрала тебя</text>
+  </g>
+
+  <g transform="translate(74 220)">
+    <text x="0" y="0" fill="#dce9f8" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4">НОВОГОДНЕЕ ТАРО · 2027</text>
+    <text x="0" y="76" fill="#fff8e9" font-family="Georgia,serif" font-size="68">Что год</text>
+    <text x="0" y="145" fill="#fff8e9" font-family="Georgia,serif" font-size="68">приготовил</text>
+    <text x="0" y="214" fill="#cfc7ff" font-family="Georgia,serif" font-size="72" font-style="italic">тебе?</text>
+    <text x="2" y="267" fill="#fff8e9" fill-opacity=".72" font-family="Arial,sans-serif" font-size="20">Загадай желание. Выбери свой знак.</text>
+  </g>
+
+  <g fill="#e8f1ff">
+    <path d="M689 184l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
+    <path d="M1113 292l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" opacity=".75"/>
+    <circle cx="686" cy="184" r="8" opacity=".18" filter="url(#shine)"/>
+  </g>
+</svg>
