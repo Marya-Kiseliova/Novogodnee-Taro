@@ -835,9 +835,7 @@ function slugifyFileName(value) {
 }
 
 function shareCaption(card) {
-  const canonical = document.querySelector('meta[property="og:url"]')?.content.trim();
-  const pageUrl = canonical?.startsWith("https://") ? canonical : "https://nosochnoe-taro.shopbchk.chatgpt.site/";
-  return `Мой знак на 2027 год — «${card.name}». ${card.share}\n\nВытяни свою карту: ${pageUrl}\nInstagram: https://www.instagram.com/bchkofficial/`;
+  return `Мой знак на 2027 год — «${card.name}». ${card.share}\n\nВытяни свою карту:  https://www.instagram.com/bchkofficial/`;
 }
 
 async function prepareShareAsset(card, index) {
